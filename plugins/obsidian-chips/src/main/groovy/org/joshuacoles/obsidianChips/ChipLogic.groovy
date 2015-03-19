@@ -12,5 +12,5 @@ abstract class ChipLogic {
     }
 
     abstract boolean validate()
-    abstract void onChangeState()
+    abstract void onInputChange(InputPin inputPin, int oldPower, int newPower)
 }

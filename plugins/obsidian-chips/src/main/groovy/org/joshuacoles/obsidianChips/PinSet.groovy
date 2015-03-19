@@ -1,12 +1,10 @@
 package org.joshuacoles.obsidianChips
 
-import com.sun.corba.se.spi.orbutil.fsm.Input
-
 /**
  * Created by joshuacoles on 16/03/15.
  */
 class PinSet {
-    Chip chip
+    private Chip chip
 
     List<OutputPin> outputs
     List<InputPin> inputs
@@ -17,7 +15,7 @@ class PinSet {
         this.inputs = inputs
     }
 
-    void onInputUpdate(InputPin inputPin) {
-
+    void onInputUpdate(InputPin inputPin, int old, int current) {
+        chip.logic.onChangeState()
     }
 }
