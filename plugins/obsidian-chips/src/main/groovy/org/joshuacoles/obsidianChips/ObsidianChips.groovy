@@ -6,5 +6,4 @@ import org.spongepowered.api.plugin.Plugin
 @Plugin(name = "Obsidian Chips", id = "obsidian-chips", dependencies = "required-after:groovy-sponge")
 class ObsidianChips {
     static inputBlocks = [BlockTypes.LEVER]
-
 }
