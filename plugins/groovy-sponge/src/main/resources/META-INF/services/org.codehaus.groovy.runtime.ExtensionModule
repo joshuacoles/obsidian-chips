@@ -1,0 +1,3 @@
+moduleName=rich-sponge
+moduleVersion=1.0-test
+extensionClasses=org.joshuacoles.groovySponge.RichSponge, org.joshuacoles.groovySponge.RichGuava, org.joshuacoles.groovySponge.RichGroovy

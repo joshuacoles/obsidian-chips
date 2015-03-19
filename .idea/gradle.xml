@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/2.3/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/plugins" />
+            <option value="$PROJECT_DIR$/plugins/groovy-sponge" />
+            <option value="$PROJECT_DIR$/plugins/obsidian-chips" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sponge" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/2.3/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/sponge" />
+            <option value="$PROJECT_DIR$/sponge/Mixin" />
+            <option value="$PROJECT_DIR$/sponge/SpongeAPI" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
