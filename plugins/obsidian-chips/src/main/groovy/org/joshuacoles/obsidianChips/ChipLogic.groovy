@@ -5,9 +5,11 @@ package org.joshuacoles.obsidianChips
  */
 abstract class ChipLogic {
     Chip chip
+    boolean analog
 
-    ChipLogic(Chip chip) {
+    ChipLogic(Chip chip, boolean analog, List<String> info) {
         this.chip = chip
+        this.analog = analog
         this.validate()
     }
 

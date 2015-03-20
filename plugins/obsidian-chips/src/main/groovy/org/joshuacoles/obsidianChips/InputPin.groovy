@@ -20,4 +20,6 @@ class InputPin extends Pin {
             this.power = event.newPower
         }
     }
+
+    int getPower() { return power }
 }
