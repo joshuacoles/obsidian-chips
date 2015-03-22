@@ -1,12 +1,13 @@
-package org.joshuacoles.obsidianChips
+package org.joshuacoles.obsidianChips.pin
 
+import org.joshuacoles.obsidianChips.event.ChipOutputUpdateEvent
 import org.spongepowered.api.event.block.BlockRedstoneUpdateEvent
 import org.spongepowered.api.util.event.Event
 
 /**
  * Created by joshuacoles on 16/03/15.
  */
-class InputPin extends Pin {
+class DigitalInputPin implements DigitalPin, InputPin {
     private int power = 0
 
     void onRelevantUpdate(Event event) {
@@ -22,4 +23,5 @@ class InputPin extends Pin {
     }
 
     int getPower() { return power }
+    boolean getState() { return power != 0 }
 }

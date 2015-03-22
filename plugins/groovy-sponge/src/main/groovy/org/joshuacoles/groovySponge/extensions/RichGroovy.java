@@ -2,6 +2,7 @@ package org.joshuacoles.groovySponge.extensions;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class RichGroovy {
     public static Class toClass(String self) throws ClassNotFoundException {
@@ -21,5 +22,4 @@ public class RichGroovy {
 
         return Class.forName(self).getConstructor((Class<?>[]) classes.toArray()).newInstance(args);
     }
-
 }

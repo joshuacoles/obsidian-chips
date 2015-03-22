@@ -1,4 +1,4 @@
-package org.joshuacoles.obsidianChips
+package org.joshuacoles.obsidianChips.chip
 
 import org.spongepowered.api.block.BlockLoc
 

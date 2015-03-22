@@ -1,3 +1,4 @@
 moduleName=rich-sponge
 moduleVersion=1.0-test
-extensionClasses=org.joshuacoles.groovySponge.RichSponge, org.joshuacoles.groovySponge.RichGuava, org.joshuacoles.groovySponge.RichGroovy
+extensionClasses=org.joshuacoles.groovySponge.extensions.RichSponge, org.joshuacoles.groovySponge.extensions.RichGuava, org.joshuacoles.groovySponge.extensions.RichGroovy
+staticExtensionClasses=org.joshuacoles.groovySponge.extensions.clazz.RichList

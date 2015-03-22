@@ -1,14 +1,15 @@
-package org.joshuacoles.obsidianChips.logic
+package org.joshuacoles.obsidianChips.chip.logic
 
-import org.joshuacoles.obsidianChips.Chip
-import org.joshuacoles.obsidianChips.ChipLogic
+import org.joshuacoles.obsidianChips.chip.Chip
+import org.joshuacoles.obsidianChips.chip.ChipLogic
 import org.joshuacoles.obsidianChips.InputPin
 
 /**
  * Created by joshuacoles on 19/03/2015.
+ * todo implement analog
  */
-class Or extends ChipLogic {
-    Or(Chip chip, boolean analog, List<String> info) {
+class or extends ChipLogic {
+    or(Chip chip, boolean analog, List<String> info) {
         super(chip, analog, info)
     }
 
@@ -19,8 +20,7 @@ class Or extends ChipLogic {
 
     @Override
     void onInputChange(InputPin inputPin, int oldPower, int newPower) {
-        if (!analog) {
-            chip.pinSet.outputs.stachip.pinSet.inputs.any { it.power != 0 }
-        }
+        chip.pinSet.outputs*.state =
+                chip.pinSet.inputs*.power.any()
     }
 }

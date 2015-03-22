@@ -1,4 +1,6 @@
-package org.joshuacoles.obsidianChips
+package org.joshuacoles.obsidianChips.event
+
+import org.joshuacoles.obsidianChips.pin.OutputPin
 
 interface ChipOutputUpdateEvent extends ChipPinEvent<OutputPin> {
     boolean getOldState()

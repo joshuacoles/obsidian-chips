@@ -2,6 +2,7 @@ package org.joshuacoles.groovySponge.extensions;
 
 import com.flowpowered.math.vector.Vector3d;
 import ninja.leaping.configurate.ConfigurationNode;
+import org.joshuacoles.groovySponge.GroovySponge;
 import org.spongepowered.api.Game;
 import org.spongepowered.api.GameRegistry;
 import org.spongepowered.api.block.BlockLoc;
@@ -74,4 +75,17 @@ public class RichSponge {
         return ret;
     }
 
+    public static ArrayList<BlockLoc> surrounding(BlockLoc self) {
+        ArrayList<BlockLoc> ret = new ArrayList<BlockLoc>();
+
+        ret.add(self.getLocation().add(1, 0, 0).getBlock());
+        ret.add(self.getLocation().add(0, 1, 0).getBlock());
+        ret.add(self.getLocation().add(0, 0, 1).getBlock());
+
+        ret.add(self.getLocation().add(-1, 0, 0).getBlock());
+        ret.add(self.getLocation().add(0, -1, 0).getBlock());
+        ret.add(self.getLocation().add(0, 0, -1).getBlock());
+
+        return ret;
+    }
 }

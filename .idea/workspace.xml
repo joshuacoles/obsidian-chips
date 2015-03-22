@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb7d87d-a3d6-4a39-bff7-8f064faeb771" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/or.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/OutputPin.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Pin.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponge/run/client/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponge/run/server/.gitkeep" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Chip.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/Chip.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipEvent.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/ChipEvent.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/ChipLogic.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipOutputUpdateEvent.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipOutputUpdateEvent.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipPinEvent.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipPinEvent.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/PinSet.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/PinSet.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/GroovySponge.class" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/GroovySponge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/extensions/RichGroovy.class" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/extensions/RichGroovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/extensions/RichSponge.class" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/build/classes/main/org/joshuacoles/groovySponge/extensions/RichSponge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ObsidianChips.groovy" afterPath="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ObsidianChips.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGroovy.java" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGroovy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichSponge.java" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichSponge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/build/resources/main/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/build/resources/main/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" afterPath="$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sponge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,74 +67,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="AnalogInputPin.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogInputPin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="105">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chip.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Chip.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChipEvent.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipEvent.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Or.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36855036" vertical-offset="0" max-vertical-offset="814">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChipLogic.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#43#107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PinSet.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/PinSet.groovy">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/PinSet.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="e#44#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveInputPin.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/ActiveInputPin.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputPin.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy">
+      <file leaf-file-name="Pin.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/Pin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullPin.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/NullPin.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivePin.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/ActivePin.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eula.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sponge/run/server/eula.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.055282556" vertical-offset="0" max-vertical-offset="814">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a2d.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/a2d.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#50#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,6 +190,38 @@
     </option>
     <option name="recentTasks">
       <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/sponge" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="scriptParameters" value="" />
+              <option name="taskNames">
+                <list>
+                  <option value="runServer" />
+                </list>
+              </option>
+              <option name="vmOptions" value="" />
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/sponge" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="scriptParameters" value="" />
+              <option name="taskNames">
+                <list>
+                  <option value="runClient" />
+                </list>
+              </option>
+              <option name="vmOptions" value="" />
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
         <ExternalTaskExecutionInfo>
           <option name="executorId" value="Run" />
           <option name="settings">
@@ -207,20 +292,6 @@
               <option name="taskNames">
                 <list>
                   <option value="properties" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
-                  <option value="components" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -2687,20 +2758,53 @@
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Chip.groovy" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/PinSet.java" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Pin.groovy" />
-        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/OutputPin.groovy" />
         <option value="$PROJECT_DIR$/plugins/groovy-sponge/build.gradle" />
         <option value="$PROJECT_DIR$/plugins/settings.gradle" />
         <option value="$PROJECT_DIR$/plugins/build.gradle" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/build.gradle" />
         <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/RichGroovy.java" />
-        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/PinSet.groovy" />
-        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" />
-        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ObsidianChips.groovy" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy" />
+        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGroovy.java" />
+        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/clazz/RichList.java" />
+        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Nand.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Nor.groovy" />
         <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Xor.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Xnor.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/And.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/A2d.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/OutputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Bus.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/OutputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalOutputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogInputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalInputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogOutputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipPinEvent.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipOutputUpdateEvent.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/a2d.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/ChipLogic.groovy" />
+        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy" />
+        <option value="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichSponge.java" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/Chip.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ObsidianChips.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/PinSet.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/package-info.java" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/NullOutputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/InputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/ActiveInputPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/NullPin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/Pin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/package-info.java" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/Pin.groovy" />
+        <option value="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/NullPin.groovy" />
+        <option value="$PROJECT_DIR$/sponge/run/server/eula.txt" />
       </list>
     </option>
   </component>
@@ -2712,6 +2816,22 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1348" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2752,6 +2872,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sponge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sponge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2766,7 +2896,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obsidian-chips" />
+              <option name="myItemId" value="groovy-sponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2780,7 +2910,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obsidian-chips" />
+              <option name="myItemId" value="groovy-sponge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sponge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy-sponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2796,7 +2956,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obsidianChips" />
+              <option name="myItemId" value="groovySponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2810,7 +2970,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obsidian-chips" />
+              <option name="myItemId" value="groovy-sponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2826,11 +2986,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="obsidianChips" />
+              <option name="myItemId" value="groovySponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
+              <option name="myItemId" value="extensions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2849,16 +3009,22 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/plugins/build.gradle" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last.edited.regexp" value="chip[or]:analog[I]" />
+    <property name="SearchEverywhereHistoryKey" value="Inpu&#9;FILE&#9;file:///Users/joshuacoles/Developer/xpm/sponge/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -2866,116 +3032,22 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.joshuacoles.obsidianChips.pin" />
+      <recent name="org.joshuacoles.obsidianChips.logic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin" />
       <recent name="$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips" />
       <recent name="$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources" />
       <recent name="$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.joshuacoles.obsidianChips.pin" />
       <recent name="org.joshuacoles.obsidianChips" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [jar]">
-    <configuration default="false" name="sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [components]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="components" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sponge::Users:joshuacoles:Developer:xpm:sponge:plugins:obsidian-chips [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins/obsidian-chips" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [projects]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="projects" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [properties]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="properties" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Server">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -3446,22 +3518,50 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [components]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins:obsidian-chips [dependencies]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [projects]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [properties]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [jar]" />
+    <configuration default="false" name="Client" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;../../build/natives&quot; -Dfml.coreMods.load=org.spongepowered.mod.SpongeCoremod" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/sponge/run/client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Sponge" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Server" type="Application" factoryName="Application" singleton="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <option name="VM_PARAMETERS" value="-Dfml.coreMods.load=org.spongepowered.mod.SpongeCoremod" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/sponge/run/server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Sponge" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Server" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [jar]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins:obsidian-chips [dependencies]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [projects]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [properties]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.sponge::Users:joshuacoles:Developer:xpm:sponge:plugins [components]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -3474,16 +3574,16 @@
       <option name="number" value="Default" />
       <updated>1426428986723</updated>
       <workItem from="1426428990234" duration="1000" />
-      <workItem from="1426429015833" duration="28831000" />
+      <workItem from="1426429015833" duration="55634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28832000" />
+    <option name="totallyTimeSpent" value="55635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1348" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3493,20 +3593,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31369427" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3545,43 +3645,376 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/obsidian-chips.iml">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36977887" vertical-offset="6059" max-vertical-offset="19185">
+          <caret line="493" column="26" selection-start-line="493" selection-start-column="26" selection-end-line="493" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/c1a9687834c2ac4d2d74ee17a5a8de168a08f67f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/event/block/BlockRedstoneUpdateEvent.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.1/e9da581b03a94acef97004906caba37bcfa59c5d/groovy-all-2.4.1-sources.jar!/groovy/lang/MetaMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="4515">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/settings.gradle">
+    <entry file="uml://JAVA/org.joshuacoles.groovySponge.extensions.clazz.RichList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.joshuacoles.groovySponge.extensions.clazz.RichList</OriginalElement>
+          <nodes>
+            <node x="" y="">org.joshuacoles.groovySponge.extensions.clazz.RichList</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="35.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="15" />
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/plugins.iml">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/nand.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/build.gradle">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/and.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/ChipEvent.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/bus.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.1/e9da581b03a94acef97004906caba37bcfa59c5d/groovy-all-2.4.1-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383" vertical-offset="225359" max-vertical-offset="255555">
+          <caret line="15740" column="35" selection-start-line="15740" selection-start-column="35" selection-end-line="15740" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/event/block/BlockEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14742015" vertical-offset="0" max-vertical-offset="814">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/text/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383" vertical-offset="1589" max-vertical-offset="3330">
+          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/text/message/MessageBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383" vertical-offset="1499" max-vertical-offset="3945">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/event/entity/living/player/PlayerInteractBlockEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14742015" vertical-offset="0" max-vertical-offset="814">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/event/block/BlockInteractEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12899263" vertical-offset="0" max-vertical-offset="814">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGuava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07371008" vertical-offset="0" max-vertical-offset="814">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/block/data/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2948403" vertical-offset="0" max-vertical-offset="814">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalInputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogOutputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipPinEvent.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/event/ChipOutputUpdateEvent.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/text/message/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383" vertical-offset="1634" max-vertical-offset="2640">
+          <caret line="167" column="25" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+          <folding>
+            <element signature="e#5948#5949#0" expanded="false" />
+            <element signature="e#6004#6005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sponge/SpongeAPI/src/main/java/org/spongepowered/api/service/scheduler/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1305">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalOutputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/5492191b2110f9051e99e5c0dce5b011abc0a16f/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/event/GameEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33169532" vertical-offset="0" max-vertical-offset="814">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichSponge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63144964" vertical-offset="191" max-vertical-offset="1005">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding>
+            <element signature="e#1509#1539#0" expanded="true" />
+            <element signature="e#2429#2439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/or.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23955774" vertical-offset="0" max-vertical-offset="814">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#50#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/Chip.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22113022" vertical-offset="0" max-vertical-offset="814">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/ChipLogic.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ObsidianChips.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="975">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#39#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/nor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/xnor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/xor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Override.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09213759" vertical-offset="0" max-vertical-offset="814">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/OutputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/InputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09213759" vertical-offset="0" max-vertical-offset="814">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/DigitalPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/NullPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/Pin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/AnalogInputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/PinSet.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#44#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3593,144 +4026,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Optional.java">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/chip/logic/a2d.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="3270">
-          <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichSponge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#50#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGuava.java">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/GroovySponge.groovy">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin/ActiveInputPin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/Pin.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="10" />
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/NullPin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/groovy-sponge/src/main/groovy/org/joshuacoles/groovySponge/extensions/RichGroovy.java">
+    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/pin2/ActivePin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/Cellar/gradle/2.3/libexec/lib/gradle-core-2.3.jar!/org/gradle/api/Project.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42874694" vertical-offset="2456" max-vertical-offset="3270">
-          <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
+    <entry file="file://$PROJECT_DIR$/sponge/run/server/eula.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.055282556" vertical-offset="0" max-vertical-offset="814">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23955774" vertical-offset="0" max-vertical-offset="814">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sponge/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="105">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/Chip.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipEvent.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/PinSet.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/InputPin.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/ChipLogic.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/obsidian-chips/src/main/groovy/org/joshuacoles/obsidianChips/logic/Or.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36855036" vertical-offset="0" max-vertical-offset="814">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -3813,6 +4162,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Gradle: :forgeSrc:1.8-11.14.1.1334</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
